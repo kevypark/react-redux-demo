@@ -1,0 +1,49 @@
+{
+  "name": "react-redux-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest",
+    "server": "nodemon server.js",
+    "build": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrnyc23-adamantium/project-greenfield.git"
+  },
+  "keywords": [],
+  "author": "lancerutkin, kevypark, tomcernera, Qwill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrnyc23-adamantium/project-greenfield/issues"
+  },
+  "homepage": "https://github.com/hrnyc23-adamantium/project-greenfield#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.0.0",
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^1.18.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.12.6",
+    "react-redux": "^7.1.0",
+    "react-thunk": "^1.0.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "thunk": "0.0.1"
+  }
+}
