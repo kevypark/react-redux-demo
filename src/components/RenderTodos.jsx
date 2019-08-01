@@ -1,13 +1,13 @@
 import React from "react";
-import store from "../store/store.js";
+
 
 let RenderTodos = props => {
   return (
     <div>
-      {console.log("RENDERTODOS PROPS: ", props)}
+      {/* {console.log("RENDER TODOS PROPS: ", props)} */}
 
       <ul>
-        {store.getState().todos.map(todo => {
+        {props.todos.map(todo => {
           return <li key={Math.random()}>{todo}</li>;
         })}
       </ul>

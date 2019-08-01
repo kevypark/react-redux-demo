@@ -1,12 +1,12 @@
 import { connect } from "react-redux";
 import RenderTodos from "./../components/RenderTodos.jsx";
 
-var mapStateToProps = state => ({
-  todos: state.todos
+var mapStateToProps = store => ({
+  todos: store.todos
 });
 
 var mapDispatchToProps = dispatch => ({
-  //example
+  //boilerplate example
   // handleTodoEntry: event => {
   //   dispatch(HandleTodoEntry(event));
   // }

@@ -3,9 +3,11 @@ import TodoList from "./../components/TodoList.jsx";
 import HandleTodoEntry from "./../actions/HandleTodoEntry.js";
 import HandleAddTodo from "./../actions/HandleAddTodo.js";
 
-var mapStateToProps = state => ({
-  entry: state.entry,
-  todos: state.todos
+
+
+var mapStateToProps = store => ({
+  entry: store.entry,
+  todos: store.todos
 });
 
 var mapDispatchToProps = dispatch => ({
@@ -13,7 +15,7 @@ var mapDispatchToProps = dispatch => ({
     dispatch(HandleTodoEntry(event));
   },
   handleAddTodo: todo => {
-    dispatch(HandleAddTodo(todo))
+    dispatch(HandleAddTodo(todo));
   }
 });
 

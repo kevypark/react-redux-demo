@@ -1,14 +1,14 @@
 import { combineReducers } from 'redux';
 
-// calling the default reducer to create a link
-import TodoEntryReducer from './TodoEntryReducer';
-import AddTodoReducer from './AddTodoReducer';
+// import below your specified reducers to create a link to the rootReducer (aka. your store)
+import entry from './TodoEntryReducer';
+import todos from './TodosReducer';
 
 
 const rootReducers = combineReducers({
-    // add reducer files references here
-    entry: TodoEntryReducer,
-    todos: AddTodoReducer
+    // add reducer file references here
+    entry,
+    todos
 });
 
 export default rootReducers;

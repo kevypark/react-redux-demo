@@ -1,10 +1,9 @@
 import React from "react";
-import store from "../store/store.js";
 
 let TodoList = props => {
   return (
     <div>
-      {console.log("TODOLIST PROPS: ", props)}
+      {/* {console.log("TODOLIST PROPS: ", props)} */}
 
       <input
         value={props.todoEntry}

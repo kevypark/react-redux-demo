@@ -11,7 +11,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        {console.log("APP STORE: ", store.getState())}
+        {/* {console.log("STORE: ", store.getState())} */}
+
+
         <TodoListContainer />
         <RenderTodosContainer />
       </div>
