@@ -3,8 +3,6 @@ import React from "react";
 let TodoList = props => {
   return (
     <div>
-      {/* {console.log("TODOLIST PROPS: ", props)} */}
-
       <input
         value={props.todoEntry}
         onChange={e => {

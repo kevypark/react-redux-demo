@@ -6,14 +6,10 @@ import RenderTodosContainer from "./containers/RenderTodosContainer";
 import store from "./store/store.js";
 import { Provider } from "react-redux";
 
-
 class App extends React.Component {
   render() {
     return (
       <div>
-        {/* {console.log("STORE: ", store.getState())} */}
-
-
         <TodoListContainer />
         <RenderTodosContainer />
       </div>
