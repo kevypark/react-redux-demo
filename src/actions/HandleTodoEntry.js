@@ -1,6 +1,6 @@
-var HandleTodoEntry = entry => ({
+var handleTodoEntry = entry => ({
   type: "CHANGE_TODO_ENTRY",
   entry: entry
 });
 
-export default HandleTodoEntry;
+export default handleTodoEntry;
