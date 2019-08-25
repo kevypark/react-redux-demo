@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
 import TodoList from "./../components/TodoList.jsx";
-import HandleTodoEntry from "./../actions/HandleTodoEntry.js";
-import HandleAddTodo from "./../actions/HandleAddTodo.js";
+import handleTodoEntry from "./../actions/handleTodoEntry.js";
+import handleAddTodo from "./../actions/handleAddTodo.js";
 
 
 
@@ -12,10 +12,10 @@ var mapStateToProps = store => ({
 
 var mapDispatchToProps = dispatch => ({
   handleTodoEntry: event => {
-    dispatch(HandleTodoEntry(event));
+    dispatch(handleTodoEntry(event));
   },
   handleAddTodo: todo => {
-    dispatch(HandleAddTodo(todo));
+    dispatch(handleAddTodo(todo));
   }
 });
 

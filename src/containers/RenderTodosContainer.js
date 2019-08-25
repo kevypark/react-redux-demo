@@ -6,10 +6,7 @@ var mapStateToProps = store => ({
 });
 
 var mapDispatchToProps = dispatch => ({
-  //boilerplate example
-  // handleTodoEntry: event => {
-  //   dispatch(HandleTodoEntry(event));
-  // }
+  
 });
 
 var RenderTodosContainer = connect(

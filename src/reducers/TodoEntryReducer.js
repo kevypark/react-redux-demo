@@ -1,6 +1,6 @@
 import Redux from "redux";
 
-var TodoEntryReducer = (state = '', action) => {
+var todoEntryReducer = (state = '', action) => {
   switch (action.type) {
     case "CHANGE_TODO_ENTRY":
       return action.entry;
@@ -13,4 +13,4 @@ var TodoEntryReducer = (state = '', action) => {
 
 
 
-export default TodoEntryReducer;
+export default todoEntryReducer;

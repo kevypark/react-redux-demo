@@ -1,6 +1,6 @@
 import Redux from "redux";
 
-var TodosReducer = (state = [], action) => {
+var todosReducer = (state = [], action) => {
   switch (action.type) {
     case "ADD_TODO":
       return [...state, action.todo];
@@ -10,4 +10,4 @@ var TodosReducer = (state = [], action) => {
   }
 };
 
-export default TodosReducer;
+export default todosReducer;

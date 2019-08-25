@@ -1,6 +1,6 @@
-var addTodo = todo => ({
+var handleAddTodo = todo => ({
   type: "ADD_TODO",
   todo: todo
 });
 
-export default addTodo;
+export default handleAddTodo;
