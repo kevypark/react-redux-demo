@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hrnyc23-adamantium/project-greenfield.git"
+    "url": ""
   },
   "keywords": [],
-  "author": "lancerutkin, kevypark, tomcernera, Qwill",
+  "author": "kevypark",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hrnyc23-adamantium/project-greenfield/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/hrnyc23-adamantium/project-greenfield#readme",
+  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
